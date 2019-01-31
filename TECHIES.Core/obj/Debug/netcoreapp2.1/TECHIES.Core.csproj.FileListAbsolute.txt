@@ -1,0 +1,9 @@
+C:\Sumanth\Intensity\TECHIES\TECHIES.Core\bin\Debug\netcoreapp2.1\TECHIES.Core.deps.json
+C:\Sumanth\Intensity\TECHIES\TECHIES.Core\bin\Debug\netcoreapp2.1\TECHIES.Core.dll
+C:\Sumanth\Intensity\TECHIES\TECHIES.Core\bin\Debug\netcoreapp2.1\TECHIES.Core.pdb
+C:\Sumanth\Intensity\TECHIES\TECHIES.Core\obj\Debug\netcoreapp2.1\TECHIES.Core.csprojAssemblyReference.cache
+C:\Sumanth\Intensity\TECHIES\TECHIES.Core\obj\Debug\netcoreapp2.1\TECHIES.Core.csproj.CoreCompileInputs.cache
+C:\Sumanth\Intensity\TECHIES\TECHIES.Core\obj\Debug\netcoreapp2.1\TECHIES.Core.AssemblyInfoInputs.cache
+C:\Sumanth\Intensity\TECHIES\TECHIES.Core\obj\Debug\netcoreapp2.1\TECHIES.Core.AssemblyInfo.cs
+C:\Sumanth\Intensity\TECHIES\TECHIES.Core\obj\Debug\netcoreapp2.1\TECHIES.Core.dll
+C:\Sumanth\Intensity\TECHIES\TECHIES.Core\obj\Debug\netcoreapp2.1\TECHIES.Core.pdb
