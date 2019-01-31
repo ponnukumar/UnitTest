@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace TECHIES.Tests
+namespace TECHIES.UnitTests
 {
     public class UnitTest1
     {
