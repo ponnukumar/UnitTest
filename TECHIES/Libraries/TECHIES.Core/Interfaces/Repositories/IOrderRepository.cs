@@ -6,7 +6,7 @@ using TECHIES.Core.Domain;
 
 namespace TECHIES.Core.Interfaces.Repositories
 {
-    interface IOrderRepository
+   public interface IOrderRepository
     {
      Task<IEnumerable<Orders>> GetOrderDetailsByCustomerIdAsync(Guid customerId,int orderId);
     }
