@@ -9,6 +9,7 @@ using TECHIES.Core.Interfaces;
 using TECHIES.Core.Interfaces.Infrastructure;
 using TECHIES.Managers;
 using TECHIES.Core.Interfaces.Repositories;
+using TECHIES.Core.ViewModels;
 
 namespace TECHIES.UnitTests.Managers
 {
@@ -52,7 +53,27 @@ namespace TECHIES.UnitTests.Managers
                             OrderId=1,
                             ProductId=1,
                             Quantity=1,
-                            Products=new Products
+                            Products=new Core.Domain.Products
+                            {
+                               ProductName="Test Product"
+                            }
+                        }
+                    }
+                },
+                 new Orders
+                {
+                    OrderId = 1,
+                    CustomerId=1,
+                    Description="Test Desc",
+                    OrderItems=new List<OrderItems>
+                    {
+                        new OrderItems
+                        {
+                            OrderItemId=1,
+                            OrderId=1,
+                            ProductId=1,
+                            Quantity=1,
+                            Products=new Core.Domain.Products
                             {
                                ProductName="Test Product"
                             }
@@ -69,6 +90,8 @@ namespace TECHIES.UnitTests.Managers
 
             //Assert
             Assert.NotNull(actualOrders);
+            Assert.IsAssignableFrom<IList<CustomerOrders>>(actualOrders);
+            //Assert.IsAssignableFrom<IEnumerable<Core.ViewModels.CustomerOrderItems>>(actualOrders.First().);
         }
     }
 }

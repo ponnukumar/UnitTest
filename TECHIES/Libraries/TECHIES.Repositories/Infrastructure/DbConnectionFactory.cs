@@ -18,7 +18,7 @@ namespace TECHIES.Repositories.Infrastructure
             _connection = new SqlConnection(connectionString);
             _connection.Open();
         }
-        #region
+        #endregion
 
         /// <summary>
         /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
